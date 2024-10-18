@@ -13,3 +13,6 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+pymysql
+psycopg2-binary
+python_dotenv

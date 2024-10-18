@@ -1,8 +1,8 @@
+from flask import request
+from flask import current_app, g
 from functools import wraps
 import jwt
-from flask import request, abort
-from flask import current_app, g
-from model.users import User
+from model.user import User
 
 def token_required(roles=None):
     '''
